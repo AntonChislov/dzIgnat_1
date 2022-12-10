@@ -1,0 +1,13 @@
+.hwTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+  padding-left: 70px;
+}

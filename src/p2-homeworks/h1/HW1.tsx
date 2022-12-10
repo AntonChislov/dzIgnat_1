@@ -1,0 +1,38 @@
+import React from 'react'
+import Message from "./Message";
+import s from '../../App.module.css'
+
+export type MessageType = typeof messageData
+
+const messageData = {
+    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    name: 'Some Name',
+    message: 'some text',
+    time: '22:00',
+}
+
+function HW1() {
+    return (
+        <div>
+            <hr/>
+            <div className={s.hwTitle}>homeworks 1</div>
+
+            <hr/>
+
+            {/*should work (должно работать)*/}
+
+            <Message
+                avatar={messageData.avatar}
+                name={messageData.name}
+                message={messageData.message}
+                time={messageData.time}
+            />
+
+            {/*для личного творчества, могу проверить*/}
+            {/*<AlternativeMessage/>*/}
+            <hr/>
+        </div>
+    )
+}
+
+export default HW1
