@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dzIgnat_1/static/css/main.2ddfb455.css",
+    "main.js": "/dzIgnat_1/static/js/main.704a3800.js",
+    "index.html": "/dzIgnat_1/index.html",
+    "main.2ddfb455.css.map": "/dzIgnat_1/static/css/main.2ddfb455.css.map",
+    "main.704a3800.js.map": "/dzIgnat_1/static/js/main.704a3800.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ddfb455.css",
+    "static/js/main.704a3800.js"
+  ]
+}
